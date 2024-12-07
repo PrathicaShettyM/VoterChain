@@ -41,6 +41,7 @@ python manage.py runserver
 ```
 
 ## Backend folder structure
+```
 voting_system/
 │
 ├── venv/                  # Virtual environment
@@ -63,4 +64,17 @@ voting_system/
 │
 ├── manage.py              # Django management script
 └── requirements.txt       # Project dependencies
+```
 
+## To restart the server
+1. Do to `bash` and type the following commands
+```
+source venv/Scripts/activate
+```
+```
+python manage.py runserver
+```
+2. If the port is occupied use -
+```
+python manage.py runserver 8080 # 8080 or any port no.
+```
